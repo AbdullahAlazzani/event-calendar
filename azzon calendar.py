@@ -27,7 +27,7 @@ def start_calendar():
     elif user_choice == "U":
       date = input("What date? ")
       update = input("Enter the update: ")
-      calender[date] = update
+      calendar[date] = update
       print (" The update being suceeful")
       print (calendar)
     elif user_choice == "A":
