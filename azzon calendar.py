@@ -47,7 +47,7 @@ def start_calendar():
         print ("Calendar is empty")
       else:
         event = input("What event? ")
-        for date in calendar.keys():
+        for date in list(calendar):
           if event == calendar[date]:
             del calendar[date]
             print ("The event was Successfully feleted.")
