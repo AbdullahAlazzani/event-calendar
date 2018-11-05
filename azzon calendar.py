@@ -35,7 +35,7 @@ def start_calendar():
       date = input("Enter date (MM/DD/YYYY): ")
       if(len(date) > 10 or int(date[6:]) < int(strftime("%Y"))):
         print ("Sorry, invalid date was entered.")
-        try_again = input("Try Again? Enter Y for yes, N for No: ").upper
+        try_again = input("Try Again? Enter Y for yes, N for No: ").upper()
         if try_again == "Y":
           continue
         else:
